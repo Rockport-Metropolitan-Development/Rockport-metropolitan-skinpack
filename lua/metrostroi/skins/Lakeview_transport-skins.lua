@@ -307,3 +307,47 @@ Metrostroi.AddSkin("train","Ezh3-LVP-Ezh3-rptm",{
 		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
 	}
 })
+
+-- ======================= 81-717 ===========================
+Metrostroi.AddSkin("train","717-LVP-Active",{
+    name = "Lakeview transport",
+    typ = "81-717_msk",
+    textures = {
+        ["717_classic1"] = "models/metrostroi_train/LVP-trains/81-717/lvp-717",
+	    ["717_classic1_int"] = "models/metrostroi_train/LVP-trains/81-717/lvp-717-int",
+    },
+    random = false,
+    postfunc = function(ent)
+        local bright = math.Rand(1,1.1)
+        ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.05-0.2*math.random())*bright))
+    end,
+    def=false,
+})
+Metrostroi.AddSkin("train","717-LVP-museum",{
+    name = "Ex: Lakeview transport (Rockport Transit Museum)",
+    typ = "81-717_msk",
+    textures = {
+        ["717_classic1"] = "models/metrostroi_train/LVP-trains/81-717/lvp-717-mus",
+	    ["717_classic1_int"] = "models/metrostroi_train/LVP-trains/81-717/lvp-717-mus-int",
+    },
+    random = false,
+    postfunc = function(ent)
+        local bright = math.Rand(1,1.1)
+        ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.05-0.2*math.random())*bright))
+    end,
+    def=false,
+})
+Metrostroi.AddSkin("train","717-LVP-ownerchange",{
+    name = "Ex: Lakeview transport (Rockport Metropolitan)",
+    typ = "81-717_msk",
+    textures = {
+        ["717_classic1"] = "models/metrostroi_train/LVP-trains/81-717/lvp-717-owc",
+	    ["717_classic1_int"] = "models/metrostroi_train/LVP-trains/81-717/lvp-717-owc-int",
+    },
+    random = false,
+    postfunc = function(ent)
+        local bright = math.Rand(1,1.1)
+        ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.05-0.2*math.random())*bright))
+    end,
+    def=false,
+})
