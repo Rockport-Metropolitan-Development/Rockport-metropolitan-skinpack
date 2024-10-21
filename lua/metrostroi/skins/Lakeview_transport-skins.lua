@@ -265,10 +265,9 @@ Metrostroi.AddSkin("train","Ezh-LVP-Ezh3-geomt",{
 	}
 })
 
-
 -- =========================================================== 81-710 (Ezh3) =======================================================
 Metrostroi.AddSkin("train","Ezh3-LVP",{
-	name = "Lakeview Transport",
+	name = "Lakeview Transport (Old livery)",
 	typ = "81-710",
 	textures = {
 		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
@@ -279,32 +278,32 @@ Metrostroi.AddSkin("train","Ezh3-LVP-Ezh3",{
 	name = "Lakeview Transport (New Livery)",
 	typ = "81-710",
 	textures = {
-		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
-		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
+		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu-vr2",
+		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu-vr2",
 	}
 })
 Metrostroi.AddSkin("train","Ezh3-LVP-Ezh3-ret",{
 	name = "Ex: Lakeview Transport (Retired)",
 	typ = "81-710",
 	textures = {
-		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
-		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
+		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu-vr2-ret",
+		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu-vr2-ret",
 	}
 })
 Metrostroi.AddSkin("train","Ezh3-LVP-Ezh3-rpm",{
 	name = "Ex: Lakeview Transport (Rockport Metropolitan)",
 	typ = "81-710",
 	textures = {
-		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
-		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
+		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu-vr2-rpm",
+		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu-vr2-rpm",
 	}
 })
 Metrostroi.AddSkin("train","Ezh3-LVP-Ezh3-rptm",{
 	name = "Ex: Lakeview Transport (Rockport Transit Museum)",
 	typ = "81-710",
 	textures = {
-		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
-		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu",
+		["710_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu-vr2-rptm",
+		["508t_green3"] = "models/metrostroi_train/LVP-trains/81-703/lvp-eu-vr2-rptm",
 	}
 })
 
