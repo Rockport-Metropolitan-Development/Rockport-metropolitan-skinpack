@@ -1,3 +1,5 @@
+--[[
+
 --[Rockport metropolitan skinpack Cab section]--
 
 -- 81-702 (D) type
@@ -54,7 +56,7 @@ Metrostroi.AddSkin("cab","rpm_cab_mod",{
         TrainType=2
     },
 })
-]]--
+
 -- 81-710 (Ezh3) Type
 Metrostroi.AddSkin("cab","710cab-rpt",{
     name = "Rockport Metropolitan (First batch)",
@@ -144,3 +146,4 @@ Metrostroi.AddSkin("cab","RPT Factory New 2",{
 -- 81-720
 
 -- 81-722
+]]--

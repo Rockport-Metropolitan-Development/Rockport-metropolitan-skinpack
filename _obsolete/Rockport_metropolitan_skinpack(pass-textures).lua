@@ -1,3 +1,4 @@
+--[[
 --[Rockport metropolitan skinpack Passenger section]--
 
 -- 81-702 (D) type
@@ -29,7 +30,7 @@ Metrostroi.AddSkin("pass","rpm_int_mod",{
         ["int0"] = "models/metrostroi_train/81-707_Ezh/rpm_int_mod_plactic",
     }
 })
-]]--
+
 -- 81-710 (Ezh3) Type
 Metrostroi.AddSkin("pass","710-passrpt-retro",{
     name = "Rockport Metropolitan (First batch)",
@@ -48,7 +49,7 @@ Metrostroi.AddSkin("pass","710-passrpt-mod",{
         --["kvkm"] = "models/metrostroi_train/81-707_Ezh/kvkm",
     }
 })
-]]--
+
 
 -- 81-502 (Ema) Type
 Metrostroi.AddSkin("pass","502_Ema-rpt",{
@@ -66,3 +67,4 @@ Metrostroi.AddSkin("pass","502_Ema-rpt",{
 -- 81-720
 
 -- 81-722
+]]--
