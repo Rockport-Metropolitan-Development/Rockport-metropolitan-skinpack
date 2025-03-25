@@ -1,13 +1,26 @@
---[[]
---[Rockport metropolitan skinpack Exterior section]--
+--[[
 
+                    ROCKPORT METROPOLITAN SKINPACK
+                            OVERHAUL 2
+
+                        Made by: GamerzXsakuzboy99
+                    Copyrighted under CC BY-NC-ND 4.0
+https://github.com/Rockport-Metropolitan-Development/.github/blob/main/profile/README.md
+
+
+===========================================================================================================
+                        Developer notes
+        - 81-703, 81-707, 81-710 Use the same exterior texture 710_green3
+                    - 81-502 has own textures
+
+--]]
 -- 81-702 (D) type
-Metrostroi.AddSkin("train","rpt-ext-factory_702",{
-    name = "Rockport Metropolitan (first batch)",
+Metrostroi.AddSkin("train","rpt-1930-livery",{
+    name = "Rockport Transport (1930 livery)",
     typ = "81-702",
     textures = {
-        ["body_green"] = "models/metrostroi_train/81-702_D/rpm-ext",
-        body = "models/metrostroi_train/81-702_D/rpm-ext",
+        ["body_green"] = "models/metrostroi_train/81-702/rpt-1930",
+        body = "models/metrostroi_train/81-702/rpt-1930",
     },
 	postfunc = function(ent)
         local bright = math.Rand(1,1.1)
@@ -23,13 +36,32 @@ Metrostroi.AddSkin("train","rpt-ext-factory_702",{
 
 -- 81-703 (E) type
 Metrostroi.AddSkin("train","rpt_fn_ext_e",{
-	name = "Rockport Metropolitan (first batch)",
+	name = "Rockport Metropolitan",
 	typ = "81-703",
 	textures = {
 		["710_green3"] = "models/metrostroi_train/global-textures/rpm_ext_plain_e-types",
 		--["ema502_body"] = "models/metrostroi_train/81-703/81-703_line3",
 	}
 })
+
+Metrostroi.AddSkin("cab","rpm-cl-e-cab",{
+    name = "Rockport Metropolitan",
+    typ = "81-703",
+    textures = {
+        ["703controller"] = "models/metrostroi_train/81-703/rpm-703-controller",
+        ["cabine"] = "models/metrostroi_train/81-703/cab_green",
+        ["gauges"] = "models/metrostroi_train/81-703/rpm-703-gauges",
+    }
+})
+
+Metrostroi.AddSkin("pass","rpm-cl-e-saloon",{
+    name = "Rockport Metropolitan",
+    typ = "81-703",
+    textures = {
+        ["int0"] = "models/metrostroi_train/81-703/int0_orange",
+    }
+})
+
 
 -- Other E type exterior skins
 
@@ -112,4 +144,3 @@ Metrostroi.AddSkin("train","RPT Factory New",{
 -- 81-720 (Yauza)
 
 -- 81-722 (Jubilee)
-]]--

@@ -1,21 +1,21 @@
--- =============================== 81-702 (D) type ======================================
-Metrostroi.AddSkin("train","Lakeview-D-Type",{
-    name = "Lakeview transport",
-    typ = "81-702",
-    textures = {
-        body_green = "models/metrostroi_train/lvp-trains/81-702/lvp-d",
-        body = "models/metrostroi_train/lvp-trains/81-702/lvp-d",
-    },
-	postfunc = function(ent)
-        local bright = math.Rand(1,1.1)
-        local colType = math.Round(math.Rand(1,2))
-        if colType == 1 then
-            ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.1-0.4*math.random())*bright))
-        else
-            ent:SetNW2Vector("BodyColor",Vector(bright,bright-(0.1-0.2*math.random())*bright,bright))
-        end
-    end
-})
+--[[
+
+                    ROCKPORT METROPOLITAN SKINPACK
+                            OVERHAUL 2
+
+                        Made by: GamerzXsakuzboy99
+                    Copyrighted under CC BY-NC-ND 4.0
+https://github.com/Rockport-Metropolitan-Development/.github/blob/main/profile/README.md
+
+
+===========================================================================================================
+                        Developer notes
+        - 81-703, 81-707, 81-710 Use the same exterior texture 710_green3
+                    - 81-502 has own textures
+
+--]]
+
+-- =============================== 81-701 (G) Type =====================================
 Metrostroi.AddSkin("train","Lakeview-G-Type",{
     name = "Lakeview transport",
     typ = "81-701",
@@ -34,9 +34,9 @@ Metrostroi.AddSkin("train","Lakeview-G-Type",{
     end
 })
 
-Metrostroi.AddSkin("train","Lakeview-D-Type-trackgeometry",{
+Metrostroi.AddSkin("train","Lakeview-G-Type-trackgeometry",{
     name = "Track Geometry train (Ex: LVP)",
-    typ = "81-702",
+    typ = "81-701",
     textures = {
         body_green = "models/metrostroi_train/lvp-trains/81-702/lvp-d-tgt",
         body = "models/metrostroi_train/lvp-trains/81-702/lvp-d-tgt",
@@ -51,9 +51,64 @@ Metrostroi.AddSkin("train","Lakeview-D-Type-trackgeometry",{
         end
     end
 })
-Metrostroi.AddSkin("train","Lakeview-G-Type-trackgeometry",{
-    name = "Track Geometry train (Ex: LVP)",
+
+Metrostroi.AddSkin("train","Lakeview-G-Type-retired",{
+    name = "Ex Lakeview Transport (Retired)",
     typ = "81-701",
+    textures = {
+        body_green = "models/metrostroi_train/lvp-trains/81-702/lvp-d-ret",
+        body = "models/metrostroi_train/lvp-trains/81-702/lvp-d-ret",
+    },
+	postfunc = function(ent)
+        local bright = math.Rand(1,1.1)
+        local colType = math.Round(math.Rand(1,2))
+        if colType == 1 then
+            ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.1-0.4*math.random())*bright))
+        else
+            ent:SetNW2Vector("BodyColor",Vector(bright,bright-(0.1-0.2*math.random())*bright,bright))
+        end
+    end
+})
+
+Metrostroi.AddSkin("train","Lakeview-G-Type-museum",{
+    name = "Rockport museum livery : LVP",
+    typ = "81-701",
+    textures = {
+        body_green = "models/metrostroi_train/lvp-trains/81-702/lvp-d-rptm",
+        body = "models/metrostroi_train/lvp-trains/81-702/lvp-d-rptm",
+    },
+	postfunc = function(ent)
+        local bright = math.Rand(1,1.1)
+        local colType = math.Round(math.Rand(1,2))
+        if colType == 1 then
+            ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.1-0.4*math.random())*bright))
+        else
+            ent:SetNW2Vector("BodyColor",Vector(bright,bright-(0.1-0.2*math.random())*bright,bright))
+        end
+    end
+})
+-- =============================== 81-702 (D) type ======================================
+Metrostroi.AddSkin("train","Lakeview-D-Type",{
+    name = "Lakeview transport",
+    typ = "81-702",
+    textures = {
+        body_green = "models/metrostroi_train/lvp-trains/81-702/lvp-d",
+        body = "models/metrostroi_train/lvp-trains/81-702/lvp-d",
+    },
+	postfunc = function(ent)
+        local bright = math.Rand(1,1.1)
+        local colType = math.Round(math.Rand(1,2))
+        if colType == 1 then
+            ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.1-0.4*math.random())*bright))
+        else
+            ent:SetNW2Vector("BodyColor",Vector(bright,bright-(0.1-0.2*math.random())*bright,bright))
+        end
+    end
+})
+
+Metrostroi.AddSkin("train","Lakeview-D-Type-trackgeometry",{
+    name = "Track Geometry train (Ex: LVP)",
+    typ = "81-702",
     textures = {
         body_green = "models/metrostroi_train/lvp-trains/81-702/lvp-d-tgt",
         body = "models/metrostroi_train/lvp-trains/81-702/lvp-d-tgt",
@@ -87,24 +142,6 @@ Metrostroi.AddSkin("train","Lakeview-D-Type-retired",{
     end
 })
 
-Metrostroi.AddSkin("train","Lakeview-G-Type-retired",{
-    name = "Ex Lakeview Transport (Retired)",
-    typ = "81-701",
-    textures = {
-        body_green = "models/metrostroi_train/lvp-trains/81-702/lvp-d-ret",
-        body = "models/metrostroi_train/lvp-trains/81-702/lvp-d-ret",
-    },
-	postfunc = function(ent)
-        local bright = math.Rand(1,1.1)
-        local colType = math.Round(math.Rand(1,2))
-        if colType == 1 then
-            ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.1-0.4*math.random())*bright))
-        else
-            ent:SetNW2Vector("BodyColor",Vector(bright,bright-(0.1-0.2*math.random())*bright,bright))
-        end
-    end
-})
-
 Metrostroi.AddSkin("train","Lakeview-D-Type-musuem",{
     name = "Rockport museum livery : LVP",
     typ = "81-702",
@@ -113,25 +150,6 @@ Metrostroi.AddSkin("train","Lakeview-D-Type-musuem",{
         body = "models/metrostroi_train/lvp-trains/81-702/lvp-d-rptm",
     },
 })
-
-Metrostroi.AddSkin("train","Lakeview-G-Type-museum",{
-    name = "Rockport museum livery : LVP",
-    typ = "81-701",
-    textures = {
-        body_green = "models/metrostroi_train/lvp-trains/81-702/lvp-d-rptm",
-        body = "models/metrostroi_train/lvp-trains/81-702/lvp-d-rptm",
-    },
-	postfunc = function(ent)
-        local bright = math.Rand(1,1.1)
-        local colType = math.Round(math.Rand(1,2))
-        if colType == 1 then
-            ent:SetNW2Vector("BodyColor",Vector(bright,bright,bright-(0.1-0.4*math.random())*bright))
-        else
-            ent:SetNW2Vector("BodyColor",Vector(bright,bright-(0.1-0.2*math.random())*bright,bright))
-        end
-    end
-})
-
 
 -- ================================== 81-703 E type ==============================================================
 Metrostroi.AddSkin("train","E-LVP",{
