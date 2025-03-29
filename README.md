@@ -10,23 +10,56 @@ When development stuff is done and checks are fine, then pull request can be don
 > Future Workshop update: Release 1: Overhaul 2 update
 
 ## Current skins & Variations
-- 81-702 / 81-701 (D & G Type)
+- 81-702 / 81-701 (D Type)
 
 | Lakeview Transport livery | Track Geometry train (Ex: LVP) |
 | --- | ----- |
-| <img src="github_pictures/20250326001137_1.jpg" width="312"> | <img src="github_pictures/20250326001215_1.jpg" width="312"> | 
+| <img src="github_pictures/d-lvp-1960.jpg" width="312"> | <img src="github_pictures/d-geomet.jpg" width="312"> | 
 | Clean Livery without any company logos, This was before LVP & RPM started to work together in 1974. | 1991 Livery when RPM owns the line and has started to use old LVP stock as work trains.
 
 | Ex Lakeview Transport (Retired) | Rockport museum livery : LVP
 | -- | -- |
-| <img src="github_pictures/20250326001202_1.jpg" width="312"> | <img src="github_pictures/20250326001225_1.jpg" width="312">
+| <img src="github_pictures/d-lvp-retired.jpg" width="312"> | <img src="github_pictures/d-lvp-musum.jpg" width="312">
 | 1986 Livery when LVP went bankrupt, Livery shows lack of care for the older trains in 1980 to 1985. | Museum livery what was shown in 2003 on Transport day.
 
 | Rockport Transport (1930) 
 | -- |
-| <img src="github_pictures/20250326002949_1.jpg" width="512">
+| <img src="github_pictures/d-rpt-1960.jpg" width="512">
 |1930's Livery of Rockport Metropolitants precursor company Rockport Transport. Only D types were under RPT before RPM became operator of whole city's transport.
 
+- E types (not Ema)
+
+| Lakeview Transport Livery | Lakeview Transport Duck Livery |
+| --- | ----- |
+| <img src="github_pictures/e-lvp.jpg" width="312"> | <img src="github_pictures/e-lvp-duck.jpg" width="312"> | 
+| LVP livery without any logos. | Duck livery of LVP, Used on lines what were street running, Most of these lines closed in 1970 - 1980.
+
+| Lakeview Transport Duck logo Livery | Lakeview Transport Livery 1980s |
+| --- | ----- |
+| <img src="github_pictures/e-lvp-duck2.jpg" width="312"> | <img src="github_pictures/e-lvp-1980.jpg" width="312"> | 
+| Same as other duck livery but with Logos. | Refreshed livery from 1980s.
+
+| Track Geometry train (ex: LVP) | Retired LVP train. |
+| --- | ----- |
+| <img src="github_pictures/e-geomet.jpg" width="312"> | <img src="github_pictures/e-lvp-retried.jpg" width="312"> | 
+| Track Geometry train. | Retired train.
+
+| Rockport Museum Livery : LVP | Rockport metropolitan livery |
+| --- | ----- |
+| <img src="github_pictures/e-lvp-museum.jpg" width="312"> | <img src="github_pictures/e-lvp_rpm.jpg" width="312"> | 
+| Museum Livery. | Livery from time when RPM started to operate the line, Most of LVP stock stayed on the line until their retirement.
+
+- 81-717
+
+| Lakeview Transport Livery | Rockport metropolitan livery |
+| --- | ----- |
+| <img src="github_pictures/717-lvp.jpg" width="312"> | <img src="github_pictures/717-rpm_lvp.jpg" width="312"> | 
+| LVP livery | Livery from time when RPM started to operate the line, Most of LVP stock stayed on the line until their retirement.
+
+| Rockport Metropolitan Museum | - |
+| --- | ----- |
+| <img src="github_pictures/717-rptm.jpg" width="312"> | - | 
+| Museum Livery. | -
 
 
 
