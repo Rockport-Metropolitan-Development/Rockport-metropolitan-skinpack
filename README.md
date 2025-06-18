@@ -74,6 +74,7 @@ This list is in-general todo-list of skins what will be coming, Release dates ar
 | 81-703 | Yes | Yes | -
 | 81-707 | Yes | Yes | -
 | 81-710 | Yes | Yes | -
+| Ezh3ru1 | Yes | no | LVP skin not coming due RU1 is 2004 train and LVP was Defunct at that point and RPM running LVP's lines.
 | 81-502 | Yes | No | LVP never ordered 81-502's, they had some 81-705s but never painted to LVP livery.
 > * 81-702 has RPT skin.
 
