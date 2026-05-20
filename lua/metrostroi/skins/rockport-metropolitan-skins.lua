@@ -54,18 +54,10 @@ Metrostroi.AddSkin("cab","rpm-cl-e-cab",{
     }
 })
 
-Metrostroi.AddSkin("pass","rpm-cl-e-saloon",{
-    name = "Rockport Metropolitan",
-    typ = "81-703",
-    textures = {
-        ["int0"] = "models/metrostroi_train/81-703/int0_orange",
-    }
-})
-
-
 -- Other E type exterior skins
 
 --81-707 (Ezh) Type
+--[[
 Metrostroi.AddSkin("train","rpm_ext_only_text",{
 	name = "Rockport Metropolitan (Only text & first batch)",
 	typ = "81-707",
@@ -80,8 +72,9 @@ Metrostroi.AddSkin("train","rpm_both",{
 		["710_green3"] = "models/metrostroi_train/global-textures/rpm_ext_only_logo_e-types",
 	}
 })
-
+--]]
 -- 81-710 (Ezh3)
+--[[
 Metrostroi.AddSkin("train","710_Ezh3rpt",{
     name = "Rockport Metropolitan (first batch)",
     typ = "81-710",
@@ -100,8 +93,10 @@ Metrostroi.AddSkin("train","710_Ezh3rpt",{
     end,
 	    norandom = true,
 })
+--]]
 
 -- 81-502 (Ema)
+--[[
 Metrostroi.AddSkin("train","502-rpt-ext",{
     name = "Rockport Metropolitan (First batch)",
     typ = "81-502",
@@ -119,8 +114,10 @@ Metrostroi.AddSkin("train","502-rpt-ext",{
         end
     end
 })
+--]]
 
 -- 81-717 (LVZ / MVM)
+--[[
 Metrostroi.AddSkin("train","RPT Factory New",{
     name = "Rockport Metropolitan (First Batch)",
     typ = "81-717_msk",
@@ -138,6 +135,7 @@ Metrostroi.AddSkin("train","RPT Factory New",{
     end,
     def=false,
 })
+--]]
 
 -- 81-710 (TISU)
 

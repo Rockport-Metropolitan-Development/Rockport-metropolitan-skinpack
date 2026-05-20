@@ -67,6 +67,7 @@ When development stuff is done and checks are fine, then pull request can be don
 This list is in-general todo-list of skins what will be coming, Release dates are fully random due skin making does take time.
 * First 1 ~ 3 versions only bring Brand new textures for the trains.
     * Later LVP & RPM trains are meant to get different condition liveries.
+    * E Types only get Exterior and Cab stuff changes, Wall texture in the cabs will be selected from Delsin's texture pack. Saloons will stay free to change by player.
 ### Release 1 trains & skin variations.
 | Train Type | RPM Skin | LVP Skin | Notes |
 | :-------:   | :-----:   | :----: | -------- |
@@ -74,7 +75,7 @@ This list is in-general todo-list of skins what will be coming, Release dates ar
 | 81-703 | Yes | Yes | -
 | 81-707 | Yes | Yes | -
 | 81-710 | Yes | Yes | -
-| Ezh3ru1 | Yes | no | LVP skin not coming due RU1 is 2004 train and LVP was Defunct at that point and RPM running LVP's lines.
+| Ezh3ru1 | Yes | Yes | - 
 | 81-502 | Yes | No | LVP never ordered 81-502's, they had some 81-705s but never painted to LVP livery.
 > * 81-702 has RPT skin.
 
@@ -85,6 +86,7 @@ This list is in-general todo-list of skins what will be coming, Release dates ar
 | 81-718 | Yes | No | -
 | 81-720 | Yes | No | -
 | 81-722 | Yes | No | -
+| 81-740 | Yes | Maybe? | LVP skin would be more a test skin
 > * 81-717 LVP livery is released on Release 1 w/o any RPM interiors or cab changes..
 
 ### Release 3
